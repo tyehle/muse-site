@@ -1,7 +1,7 @@
 .version.memoization /* version checker */
 {
-	color: #000013;
-	background-color: #5F8B56;
+	color: #00001A;
+	background-color: #B58E4D;
 }
 
 .html
@@ -13,7 +13,7 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 534px;
+	min-height: 579px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
@@ -25,7 +25,7 @@
 
 #page_position_content
 {
-	margin-bottom: -46px;
+	margin-bottom: -1px;
 	width: 0.01px;
 }
 
