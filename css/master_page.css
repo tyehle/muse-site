@@ -1,6 +1,6 @@
 #u140
 {
-	background-color: #176FA5;
+	background-color: #0B512C;
 }
 
 #u140_align_to_page
@@ -11,19 +11,20 @@
 #u171-4
 {
 	background-color: transparent;
-	line-height: 47px;
+	color: #FFFFFF;
+	font-size: 42px;
+	line-height: 50px;
 	position: relative;
 }
 
-#u171-2
+#u555-4,#u560-4
 {
-	font-size: 39px;
-	color: #FFFFFF;
-}
-
-#u173,#u176
-{
-	background-color: #FFFFFF;
+	background-color: transparent;
+	color: #C0C0C0;
+	font-size: 42px;
+	line-height: 50px;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 700;
 	position: relative;
 }
 
@@ -35,7 +36,7 @@
 	position: relative;
 }
 
-#u164,#u167
+#u177,#u164,#u167
 {
 	background-color: transparent;
 	position: relative;
@@ -46,18 +47,96 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 29px;
 	color: #FFFFFF;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
-	line-height: 24px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	position: relative;
 }
 
-#u167.MuseMenuActive #u170-4 p
+#u167:hover #u170-4
 {
-	color: #000000;
+	background-color: transparent;
+}
+
+#u167:hover #u170-4 p
+{
+	color: #DCDCFF;
+	visibility: inherit;
+}
+
+#u184,#u187
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u190-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	line-height: 29px;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u167.MuseMenuActive #u170-4,#u187:hover #u190-4
+{
+	background-color: transparent;
+}
+
+#u187:hover #u190-4 p
+{
+	color: #DCDCFF;
+	visibility: inherit;
+}
+
+#u649,#u650
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u652-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	line-height: 29px;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u187.MuseMenuActive #u190-4,#u650:hover #u652-4
+{
+	background-color: transparent;
+}
+
+#u650.MuseMenuActive #u652-4
+{
+	background-color: transparent;
+}
+
+#u650:hover #u652-4 p
+{
+	color: #DCDCFF;
+	visibility: inherit;
+}
+
+#u167.MuseMenuActive #u170-4 p,#u187.MuseMenuActive #u190-4 p,#u650.MuseMenuActive #u652-4 p
+{
+	color: #001900;
 	visibility: inherit;
 }
 

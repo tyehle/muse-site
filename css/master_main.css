@@ -1,6 +1,6 @@
 #u105
 {
-	background-color: #176FA5;
+	background-color: #0B512C;
 }
 
 #u105_align_to_page
@@ -8,7 +8,7 @@
 	position: relative;
 }
 
-#menuu106
+#menuu511
 {
 	border-style: none;
 	border-color: transparent;
@@ -16,29 +16,107 @@
 	position: relative;
 }
 
-#u107,#u110
+#u519,#u520
 {
 	background-color: transparent;
 	position: relative;
 }
 
-#u111-4
+#u522-4
 {
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 29px;
 	color: #FFFFFF;
 	font-size: 24px;
 	text-align: center;
-	line-height: 29px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	position: relative;
 }
 
-#u110.MuseMenuActive #u111-4 p
+#u520:hover #u522-4
 {
-	color: #000000;
+	background-color: transparent;
+}
+
+#u520:hover #u522-4 p
+{
+	color: #DCDCFF;
+	visibility: inherit;
+}
+
+#u512,#u515
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u518-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	line-height: 29px;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u520.MuseMenuActive #u522-4,#u515:hover #u518-4
+{
+	background-color: transparent;
+}
+
+#u515:hover #u518-4 p
+{
+	color: #DCDCFF;
+	visibility: inherit;
+}
+
+#u656,#u657
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u659-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	line-height: 29px;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u515.MuseMenuActive #u518-4,#u657:hover #u659-4
+{
+	background-color: transparent;
+}
+
+#u657.MuseMenuActive #u659-4
+{
+	background-color: transparent;
+}
+
+#u657:hover #u659-4 p
+{
+	color: #DCDCFF;
+	visibility: inherit;
+}
+
+#u520.MuseMenuActive #u522-4 p,#u515.MuseMenuActive #u518-4 p,#u657.MuseMenuActive #u659-4 p
+{
+	color: #001900;
 	visibility: inherit;
 }
 
