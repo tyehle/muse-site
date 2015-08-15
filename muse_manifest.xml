@@ -1,4 +1,8 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1439672330711">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1439678632516">
+  <folder name="images">
+    <file name="img_0648-crop-u843.jpg" crc="4160607574" ref="index"/>
+    <file name="favicon.ico" crc="236125524" ref="index"/>
+  </folder>
   <folder name="phone">
     <folder name="css">
       <file name="master_page.css" crc="3865064645" ref="phone>memoization:phone>derivatives:phone>index"/>
@@ -7,15 +11,15 @@
       <file name="derivatives.css" crc="3979665048" ref="phone>derivatives"/>
       <file name="index.css" crc="3979665048" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="348923517" seo="true" mt="1439671655214" redirect="true"/>
-    <file name="memoization.html" crc="3934654118" seo="true" mt="1439671655214" redirect="true"/>
-    <file name="derivatives.html" crc="266632176" seo="true" mt="1439671655214" redirect="true"/>
+    <file name="index.html" crc="348923517" seo="true" mt="1439675178671" redirect="true"/>
+    <file name="memoization.html" crc="3856299306" seo="true" mt="1439675178796" redirect="true"/>
+    <file name="derivatives.html" crc="266632176" seo="true" mt="1439675178671" redirect="true"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3795197550"/>
+    <file name="site_global.css" crc="4101135739"/>
     <file name="master_page.css" crc="3965178670" ref="index:memoization:derivatives"/>
     <file name="master_main.css" crc="44687249" ref="index:memoization:derivatives"/>
-    <file name="index.css" crc="3919217109" ref="index"/>
+    <file name="index.css" crc="58057681" ref="index"/>
     <file name="memoization.css" crc="325028694" ref="memoization"/>
     <file name="derivatives.css" crc="3919217109" ref="derivatives"/>
   </folder>
@@ -28,7 +32,7 @@
     <file name="pie.js" crc="3827607177" ref="memoization:phone>memoization"/>
     <file name="museredirect.js" crc="3899419633" ref="index:memoization:derivatives"/>
   </folder>
-  <file name="index.html" crc="3912067452" seo="true" mt="1439669883929" redirect="true"/>
-  <file name="memoization.html" crc="4119723333" seo="true" mt="1439669883929" redirect="true"/>
-  <file name="derivatives.html" crc="4258401438" seo="true" mt="1439669883929" redirect="true"/>
+  <file name="index.html" crc="194677140" seo="true" mt="1439678620123" redirect="true"/>
+  <file name="memoization.html" crc="509986921" seo="true" mt="1439678620123" redirect="true"/>
+  <file name="derivatives.html" crc="278593748" seo="true" mt="1439678620123" redirect="true"/>
 </manifest>
