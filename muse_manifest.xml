@@ -1,19 +1,20 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1439678840264">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1439679165681">
   <folder name="images">
     <file name="img_0648-crop-u843.jpg" crc="4160607574" ref="index"/>
     <file name="favicon.ico" crc="236125524" ref="index"/>
+    <file name="img_0648-crop-u856.jpg" crc="4160607574" ref="phone>index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="master_page.css" crc="3865064645" ref="phone>memoization:phone>derivatives:phone>index"/>
       <file name="master_main.css" crc="4211675519" ref="phone>memoization:phone>derivatives:phone>index"/>
-      <file name="memoization.css" crc="161086050" ref="phone>memoization"/>
-      <file name="derivatives.css" crc="3979665048" ref="phone>derivatives"/>
-      <file name="index.css" crc="3979665048" ref="phone>index"/>
+      <file name="memoization.css" crc="3931195694" ref="phone>memoization"/>
+      <file name="derivatives.css" crc="4173140296" ref="phone>derivatives"/>
+      <file name="index.css" crc="131149376" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="348923517" seo="true" mt="1439675178671" redirect="true"/>
-    <file name="memoization.html" crc="3856299306" seo="true" mt="1439675178796" redirect="true"/>
-    <file name="derivatives.html" crc="266632176" seo="true" mt="1439675178671" redirect="true"/>
+    <file name="index.html" crc="327287643" seo="true" mt="1439679119921" redirect="true"/>
+    <file name="memoization.html" crc="243259216" seo="true" mt="1439679119921" redirect="true"/>
+    <file name="derivatives.html" crc="266632176" seo="true" mt="1439679119921" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4101135739"/>

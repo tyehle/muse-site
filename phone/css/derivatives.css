@@ -1,7 +1,7 @@
 .version.derivatives /* version checker */
 {
-	color: #0000ED;
-	background-color: #34DE98;
+	color: #0000F8;
+	background-color: #BD1148;
 }
 
 @-ms-viewport
@@ -65,7 +65,7 @@
 	min-height: 36px;
 	margin-right: -10000px;
 	margin-top: 5px;
-	left: 47px;
+	left: 71px;
 }
 
 #u776-4
@@ -75,7 +75,7 @@
 	min-height: 34px;
 	margin-right: -10000px;
 	margin-top: 7px;
-	left: 67px;
+	left: 91px;
 }
 
 #u829-4
@@ -85,7 +85,7 @@
 	min-height: 36px;
 	margin-right: -10000px;
 	margin-top: 5px;
-	left: 218px;
+	left: 242px;
 }
 
 #u751-bw

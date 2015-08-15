@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000ED;
-	background-color: #34DE98;
+	color: #000007;
+	background-color: #D12E40;
 }
 
 @-ms-viewport
@@ -45,10 +45,9 @@
 	background-color: #DCDCFF;
 }
 
-#pu751
+#page_position_content,#pu751
 {
 	width: 0.01px;
-	margin-right: -10000px;
 }
 
 #u751
@@ -65,7 +64,7 @@
 	min-height: 36px;
 	margin-right: -10000px;
 	margin-top: 5px;
-	left: 47px;
+	left: 71px;
 }
 
 #u776-4
@@ -75,7 +74,7 @@
 	min-height: 34px;
 	margin-right: -10000px;
 	margin-top: 7px;
-	left: 67px;
+	left: 91px;
 }
 
 #u829-4
@@ -85,7 +84,7 @@
 	min-height: 36px;
 	margin-right: -10000px;
 	margin-top: 5px;
-	left: 218px;
+	left: 242px;
 }
 
 #u751-bw
@@ -250,11 +249,98 @@
 	margin-top: 57px;
 }
 
+#u851-4
+{
+	z-index: 54;
+	width: 520px;
+	min-height: 59px;
+	background-color: transparent;
+	line-height: 58px;
+	margin-left: 40px;
+	margin-top: 23px;
+	position: relative;
+}
+
+#pu854
+{
+	width: 0.01px;
+	margin-left: 81px;
+	margin-top: 24px;
+}
+
+#u854
+{
+	z-index: 69;
+	width: 197px;
+	height: 22px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 11px;
+	border-width: 1px 0px 0px;
+}
+
+#u853-4
+{
+	z-index: 65;
+	width: 44px;
+	min-height: 22px;
+	background-color: transparent;
+	line-height: 17px;
+	font-weight: 700;
+	position: relative;
+	margin-right: -10000px;
+	left: 197px;
+}
+
+#u853-2
+{
+	text-align: center;
+	font-family: source-code-pro, sans-serif;
+}
+
+#u855
+{
+	z-index: 70;
+	width: 197px;
+	height: 22px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 11px;
+	left: 241px;
+	border-width: 1px 0px 0px;
+}
+
+#u856
+{
+	z-index: 71;
+	width: 357px;
+	background-color: transparent;
+	margin-left: 122px;
+	margin-top: 12px;
+	position: relative;
+}
+
+#u852-7
+{
+	z-index: 58;
+	width: 520px;
+	min-height: 59px;
+	background-color: transparent;
+	margin-left: 40px;
+	margin-top: 23px;
+	position: relative;
+}
+
 #pu705
 {
 	width: 0.01px;
-	margin-right: -10000px;
-	margin-top: 847px;
+	margin-top: 18px;
 }
 
 #u705,#u705-bw
@@ -419,7 +505,7 @@
 {
 	z-index: 3;
 	min-height: 40px;
-	margin-top: 7px;
+	margin-top: 6px;
 }
 
 body
@@ -431,6 +517,5 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -847px;
 }
 
