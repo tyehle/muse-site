@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1439679408709">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1439679749606">
   <folder name="images">
     <file name="img_0648-crop-u843.jpg" crc="4160607574" ref="index"/>
-    <file name="favicon.ico" crc="236125524" ref="phone>index"/>
+    <file name="favicon.ico" crc="4041064623" ref="phone>index"/>
     <file name="img_0648-crop-u856.jpg" crc="4160607574" ref="phone>index"/>
   </folder>
   <folder name="phone">
@@ -12,9 +12,9 @@
       <file name="derivatives.css" crc="4173140296" ref="phone>derivatives"/>
       <file name="index.css" crc="131149376" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="350088469" seo="true" mt="1439679385533" redirect="true"/>
-    <file name="memoization.html" crc="516087706" seo="true" mt="1439679385533" redirect="true"/>
-    <file name="derivatives.html" crc="393292578" seo="true" mt="1439679385533" redirect="true"/>
+    <file name="index.html" crc="3895161176" seo="true" mt="1439679728169" redirect="true"/>
+    <file name="memoization.html" crc="4178915004" seo="true" mt="1439679728169" redirect="true"/>
+    <file name="derivatives.html" crc="393292578" seo="true" mt="1439679728169" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4101135739"/>
@@ -33,7 +33,7 @@
     <file name="pie.js" crc="3827607177" ref="memoization:phone>memoization"/>
     <file name="museredirect.js" crc="3899419633" ref="index:memoization:derivatives"/>
   </folder>
-  <file name="index.html" crc="3998995502" seo="true" mt="1439679397870" redirect="true"/>
-  <file name="memoization.html" crc="4181144701" seo="true" mt="1439679397870" redirect="true"/>
-  <file name="derivatives.html" crc="39839910" seo="true" mt="1439679397870" redirect="true"/>
+  <file name="index.html" crc="4119156663" seo="true" mt="1439679737837" redirect="true"/>
+  <file name="memoization.html" crc="317434912" seo="true" mt="1439679737837" redirect="true"/>
+  <file name="derivatives.html" crc="39839910" seo="true" mt="1439679737837" redirect="true"/>
 </manifest>
