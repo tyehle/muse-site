@@ -1,7 +1,7 @@
 .version.derivatives /* version checker */
 {
-	color: #000001;
-	background-color: #B9AD8F;
+	color: #0000E9;
+	background-color: #9A81D5;
 }
 
 .html
@@ -369,8 +369,8 @@
 {
 	z-index: 2;
 	min-height: 63px;
-	margin-bottom: -7px;
-	margin-top: 499px;
+	margin-bottom: -46px;
+	margin-top: 472px;
 }
 
 body
@@ -382,6 +382,6 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -498px;
+	margin-bottom: -472px;
 }
 

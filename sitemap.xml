@@ -5,17 +5,20 @@
     <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://tobin.yehle.io/phone/index.html"/>
   </url>
   <url>
     <loc>http://tobin.yehle.io/memoization.html</loc>
     <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://tobin.yehle.io/phone/memoization.html"/>
   </url>
   <url>
     <loc>http://tobin.yehle.io/derivatives.html</loc>
     <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://tobin.yehle.io/phone/derivatives.html"/>
   </url>
 </urlset>
