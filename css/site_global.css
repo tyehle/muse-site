@@ -85,27 +85,21 @@ body
 	body { text-rendering:auto; }
 }
 
-a
-{
-	color: inherit;
-	text-decoration: inherit;
-}
-
 a:link
 {
-	color: #0B512C;
-	text-decoration: underline;
+	color: #009999;
+	text-decoration: inherit;
 }
 
 a:visited
 {
-	color: #000000;
-	text-decoration: underline;
+	color: #009999;
+	text-decoration: inherit;
 }
 
 a:hover
 {
-	color: #0B512C;
+	color: #009999;
 	text-decoration: underline;
 }
 
@@ -181,6 +175,17 @@ a.nontext /* used to override default properties of 'a' tag */
 	line-height: 24px;
 	text-align: justify;
 	padding: 0px;
+}
+
+.subhead
+{
+	color: #0B512C;
+	font-family: open-sans-condensed, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: left;
+	padding: 0px 0px 24px;
 }
 
 .code-inline

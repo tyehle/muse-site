@@ -8,120 +8,40 @@
 	position: relative;
 }
 
-#menuu511
+#u1047-4
 {
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	position: relative;
-}
-
-#u519,#u520
-{
-	background-color: transparent;
-	position: relative;
-}
-
-#u522-4
-{
-	border-style: none;
-	border-color: transparent;
 	background-color: transparent;
 	color: #FFFFFF;
-	font-size: 24px;
+	font-size: 42px;
+	line-height: 50px;
+	position: relative;
+}
+
+#u1048-4,#u1049-4
+{
+	background-color: transparent;
+	color: #C0C0C0;
+	font-size: 42px;
+	line-height: 50px;
+	position: relative;
+}
+
+#u1045-4
+{
+	background-color: transparent;
+	color: #C0C0C0;
 	text-align: center;
-	line-height: 29px;
-	font-family: open-sans-condensed, sans-serif;
-	font-weight: 700;
 	position: relative;
 }
 
-#u520:hover #u522-4
-{
-	background-color: transparent;
-}
-
-#u520:hover #u522-4 p
-{
-	color: #DCDCFF;
-	visibility: inherit;
-}
-
-#u512,#u515
+#u1069,#u1056-4,#u1075,#u1081-4
 {
 	background-color: transparent;
 	position: relative;
 }
 
-#u518-4
+#u1056-2,#u1081-2
 {
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 24px;
-	text-align: center;
-	line-height: 29px;
-	font-family: open-sans-condensed, sans-serif;
-	font-weight: 700;
-	position: relative;
-}
-
-#u520.MuseMenuActive #u522-4,#u515:hover #u518-4
-{
-	background-color: transparent;
-}
-
-#u515:hover #u518-4 p
-{
-	color: #DCDCFF;
-	visibility: inherit;
-}
-
-#u656,#u657
-{
-	background-color: transparent;
-	position: relative;
-}
-
-#u659-4
-{
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 24px;
-	text-align: center;
-	line-height: 29px;
-	font-family: open-sans-condensed, sans-serif;
-	font-weight: 700;
-	position: relative;
-}
-
-#u515.MuseMenuActive #u518-4,#u657:hover #u659-4
-{
-	background-color: transparent;
-}
-
-#u657.MuseMenuActive #u659-4
-{
-	background-color: transparent;
-}
-
-#u657:hover #u659-4 p
-{
-	color: #DCDCFF;
-	visibility: inherit;
-}
-
-#u520.MuseMenuActive #u522-4 p,#u515.MuseMenuActive #u518-4 p,#u657.MuseMenuActive #u659-4 p
-{
-	color: #001900;
-	visibility: inherit;
-}
-
-.MenuItem /* unifiedNavBar */
-{
-	cursor: pointer;
+	color: #C0C0C0;
 }
 

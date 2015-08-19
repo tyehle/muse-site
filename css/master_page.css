@@ -11,9 +11,9 @@
 #u171-4
 {
 	background-color: transparent;
+	color: #FFFFFF;
 	font-size: 42px;
 	line-height: 50px;
-	color: #FFFFFF;
 	position: relative;
 }
 
@@ -67,13 +67,13 @@
 	visibility: inherit;
 }
 
-#u184,#u187
+#u973,#u974
 {
 	background-color: transparent;
 	position: relative;
 }
 
-#u190-4
+#u977-4
 {
 	border-style: none;
 	border-color: transparent;
@@ -87,24 +87,24 @@
 	position: relative;
 }
 
-#u167.MuseMenuActive #u170-4,#u187:hover #u190-4
+#u167.MuseMenuActive #u170-4,#u974:hover #u977-4
 {
 	background-color: transparent;
 }
 
-#u187:hover #u190-4 p
+#u974:hover #u977-4 p
 {
 	color: #DCDCFF;
 	visibility: inherit;
 }
 
-#u649,#u650
+#u999,#u1000
 {
 	background-color: transparent;
 	position: relative;
 }
 
-#u652-4
+#u1003-4
 {
 	border-style: none;
 	border-color: transparent;
@@ -118,23 +118,54 @@
 	position: relative;
 }
 
-#u187.MuseMenuActive #u190-4,#u650:hover #u652-4
+#u974.MuseMenuActive #u977-4,#u1000:hover #u1003-4
 {
 	background-color: transparent;
 }
 
-#u650.MuseMenuActive #u652-4
-{
-	background-color: transparent;
-}
-
-#u650:hover #u652-4 p
+#u1000:hover #u1003-4 p
 {
 	color: #DCDCFF;
 	visibility: inherit;
 }
 
-#u167.MuseMenuActive #u170-4 p,#u187.MuseMenuActive #u190-4 p,#u650.MuseMenuActive #u652-4 p
+#u1030,#u1033
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u1036-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+	line-height: 29px;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u1000.MuseMenuActive #u1003-4,#u1033:hover #u1036-4
+{
+	background-color: transparent;
+}
+
+#u1033.MuseMenuActive #u1036-4
+{
+	background-color: transparent;
+}
+
+#u1033:hover #u1036-4 p
+{
+	color: #DCDCFF;
+	visibility: inherit;
+}
+
+#u167.MuseMenuActive #u170-4 p,#u974.MuseMenuActive #u977-4 p,#u1000.MuseMenuActive #u1003-4 p,#u1033.MuseMenuActive #u1036-4 p
 {
 	color: #001900;
 	visibility: inherit;

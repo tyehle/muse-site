@@ -1,40 +1,42 @@
-#u751
+#u1183
 {
 	background-color: #0B512C;
 }
 
-#u776-4
+#u1214-4
 {
 	background-color: transparent;
-	font-size: 32px;
-	line-height: 38px;
 	color: #FFFFFF;
+	font-size: 42px;
+	line-height: 50px;
 	position: relative;
 }
 
-#u777-4,#u829-4
+#u1215-4,#u1216-4
 {
 	background-color: transparent;
-	font-size: 32px;
-	line-height: 38px;
 	color: #C0C0C0;
+	font-size: 42px;
+	line-height: 50px;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 700;
 	position: relative;
 }
 
-#menuu753
+#menuu1185
 {
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
 }
 
-#u754,#u757
+#u1186,#u1187
 {
 	background-color: transparent;
 	position: relative;
 }
 
-#u758-4
+#u1188-4
 {
 	border-style: none;
 	border-color: transparent;
@@ -48,24 +50,24 @@
 	position: relative;
 }
 
-#u757:hover #u758-4
+#u1187:hover #u1188-4
 {
 	background-color: transparent;
 }
 
-#u757:hover #u758-4 p
+#u1187:hover #u1188-4 p
 {
 	color: #DCDCFF;
 	visibility: inherit;
 }
 
-#u761,#u762
+#u1207,#u1208
 {
 	background-color: transparent;
 	position: relative;
 }
 
-#u765-4
+#u1210-4
 {
 	border-style: none;
 	border-color: transparent;
@@ -79,24 +81,24 @@
 	position: relative;
 }
 
-#u757.MuseMenuActive #u758-4,#u762:hover #u765-4
+#u1187.MuseMenuActive #u1188-4,#u1208:hover #u1210-4
 {
 	background-color: transparent;
 }
 
-#u762:hover #u765-4 p
+#u1208:hover #u1210-4 p
 {
 	color: #DCDCFF;
 	visibility: inherit;
 }
 
-#u768,#u769
+#u1200,#u1203
 {
 	background-color: transparent;
 	position: relative;
 }
 
-#u771-4
+#u1206-4
 {
 	border-style: none;
 	border-color: transparent;
@@ -110,23 +112,54 @@
 	position: relative;
 }
 
-#u762.MuseMenuActive #u765-4,#u769:hover #u771-4
+#u1208.MuseMenuActive #u1210-4,#u1203:hover #u1206-4
 {
 	background-color: transparent;
 }
 
-#u769.MuseMenuActive #u771-4
-{
-	background-color: transparent;
-}
-
-#u769:hover #u771-4 p
+#u1203:hover #u1206-4 p
 {
 	color: #DCDCFF;
 	visibility: inherit;
 }
 
-#u757.MuseMenuActive #u758-4 p,#u762.MuseMenuActive #u765-4 p,#u769.MuseMenuActive #u771-4 p
+#u1193,#u1194
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u1196-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+	line-height: 29px;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u1203.MuseMenuActive #u1206-4,#u1194:hover #u1196-4
+{
+	background-color: transparent;
+}
+
+#u1194.MuseMenuActive #u1196-4
+{
+	background-color: transparent;
+}
+
+#u1194:hover #u1196-4 p
+{
+	color: #DCDCFF;
+	visibility: inherit;
+}
+
+#u1187.MuseMenuActive #u1188-4 p,#u1208.MuseMenuActive #u1210-4 p,#u1203.MuseMenuActive #u1206-4 p,#u1194.MuseMenuActive #u1196-4 p
 {
 	color: #001900;
 	visibility: inherit;

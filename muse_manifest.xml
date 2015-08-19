@@ -1,39 +1,49 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1439679749606">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1439963006735">
   <folder name="images">
     <file name="img_0648-crop-u843.jpg" crc="4160607574" ref="index"/>
     <file name="favicon.ico" crc="4041064623" ref="phone>index"/>
-    <file name="img_0648-crop-u856.jpg" crc="4160607574" ref="phone>index"/>
+    <file name="img_0648-crop-u1222.jpg" crc="4160607574" ref="phone>index"/>
+    <file name="bitbucket_white.png" crc="3880044052" seo="true" ref="phone>index:phone>research:phone>projects:phone>snippets:phone>memoization:index:memoization:research:projects:snippets"/>
+    <file name="github_white-01.png" crc="4084618402" seo="true" ref="phone>index:phone>research:phone>projects:phone>snippets:phone>memoization:index:memoization:research:projects:snippets"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_page.css" crc="3865064645" ref="phone>memoization:phone>derivatives:phone>index"/>
-      <file name="master_main.css" crc="4211675519" ref="phone>memoization:phone>derivatives:phone>index"/>
-      <file name="memoization.css" crc="3931195694" ref="phone>memoization"/>
-      <file name="derivatives.css" crc="4173140296" ref="phone>derivatives"/>
-      <file name="index.css" crc="131149376" ref="phone>index"/>
+      <file name="master_page.css" crc="4073057265" ref="phone>memoization:phone>index:phone>projects:phone>snippets:phone>research"/>
+      <file name="master_main.css" crc="314445842" ref="phone>memoization:phone>index:phone>projects:phone>snippets:phone>research"/>
+      <file name="memoization.css" crc="64688224" ref="phone>memoization"/>
+      <file name="index.css" crc="347294275" ref="phone>index"/>
+      <file name="projects.css" crc="312211860" ref="phone>projects"/>
+      <file name="snippets.css" crc="360316697" ref="phone>snippets"/>
+      <file name="research.css" crc="117181384" ref="phone>research"/>
     </folder>
-    <file name="index.html" crc="3895161176" seo="true" mt="1439679728169" redirect="true"/>
-    <file name="memoization.html" crc="4178915004" seo="true" mt="1439679728169" redirect="true"/>
-    <file name="derivatives.html" crc="393292578" seo="true" mt="1439679728169" redirect="true"/>
+    <file name="index.html" crc="3783076393" seo="true" mt="1439962733426" redirect="true"/>
+    <file name="memoization.html" crc="506188737" seo="true" mt="1439962733426" redirect="true"/>
+    <file name="research.html" crc="3898784946" seo="true" mt="1439962733426" redirect="true"/>
+    <file name="projects.html" crc="494787279" seo="true" mt="1439962733426" redirect="true"/>
+    <file name="snippets.html" crc="4052595840" seo="true" mt="1439962733426" redirect="true"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="4101135739"/>
-    <file name="master_page.css" crc="3965178670" ref="index:memoization:derivatives"/>
-    <file name="master_main.css" crc="44687249" ref="index:memoization:derivatives"/>
-    <file name="index.css" crc="504666817" ref="index"/>
-    <file name="memoization.css" crc="448106061" ref="memoization"/>
-    <file name="derivatives.css" crc="307617494" ref="derivatives"/>
+    <file name="site_global.css" crc="445134775"/>
+    <file name="master_page.css" crc="3830206251" ref="index:memoization:research:projects:snippets"/>
+    <file name="master_main.css" crc="4014597013" ref="index:memoization:research:projects:snippets"/>
+    <file name="index.css" crc="3875030763" ref="index"/>
+    <file name="memoization.css" crc="4117178444" ref="memoization"/>
+    <file name="research.css" crc="4229253185" ref="research"/>
+    <file name="projects.css" crc="4022168942" ref="projects"/>
+    <file name="snippets.css" crc="3858063263" ref="snippets"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:memoization:derivatives:phone>index:phone>memoization:phone>derivatives"/>
-    <file name="museutils.js" crc="275725342" ref="index:memoization:derivatives:phone>index:phone>memoization:phone>derivatives"/>
-    <file name="jquery.musemenu.js" crc="4042164668" ref="index:memoization:derivatives:phone>index:phone>memoization:phone>derivatives"/>
-    <file name="jquery.watch.js" crc="3999102769" ref="index:memoization:derivatives:phone>index:phone>memoization:phone>derivatives"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:memoization:derivatives:phone>index:phone>memoization:phone>derivatives"/>
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets"/>
+    <file name="museutils.js" crc="275725342" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets"/>
+    <file name="jquery.musemenu.js" crc="4042164668" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets"/>
     <file name="pie.js" crc="3827607177" ref="memoization:phone>memoization"/>
-    <file name="museredirect.js" crc="3899419633" ref="index:memoization:derivatives"/>
+    <file name="museredirect.js" crc="3899419633" ref="index:memoization:research:projects:snippets"/>
   </folder>
-  <file name="index.html" crc="4119156663" seo="true" mt="1439679737837" redirect="true"/>
-  <file name="memoization.html" crc="317434912" seo="true" mt="1439679737837" redirect="true"/>
-  <file name="derivatives.html" crc="39839910" seo="true" mt="1439679737837" redirect="true"/>
+  <file name="index.html" crc="517244003" seo="true" mt="1439961722269" redirect="true"/>
+  <file name="memoization.html" crc="358151059" seo="true" mt="1439961722502" redirect="true"/>
+  <file name="research.html" crc="3799812188" seo="true" mt="1439961722335" redirect="true"/>
+  <file name="projects.html" crc="132092721" seo="true" mt="1439961722387" redirect="true"/>
+  <file name="snippets.html" crc="8019913" seo="true" mt="1439961722439" redirect="true"/>
 </manifest>
