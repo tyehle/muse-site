@@ -1,7 +1,7 @@
 .version.snippets /* version checker */
 {
-	color: #0000E5;
-	background-color: #F55F9F;
+	color: #00001B;
+	background-color: #EBDCB5;
 }
 
 .html
@@ -13,12 +13,11 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 578.8px;
+	min-height: 579px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: #DCDCFF;
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -286,7 +285,7 @@
 	background-color: transparent;
 	line-height: 58px;
 	margin-left: 220px;
-	margin-top: 30px;
+	margin-top: 36px;
 	position: relative;
 }
 

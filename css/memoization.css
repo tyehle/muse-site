@@ -1,7 +1,7 @@
 .version.memoization /* version checker */
 {
-	color: #0000F5;
-	background-color: #67284C;
+	color: #00000C;
+	background-color: #06E1A4;
 }
 
 .html
@@ -13,12 +13,13 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 579px;
+	min-height: 578.8500000000004px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
 	border-radius: 0px 0px 10px 10px ;
+	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -286,7 +287,7 @@
 	background-color: transparent;
 	line-height: 58px;
 	margin-left: 220px;
-	margin-top: 37px;
+	margin-top: 36px;
 	position: relative;
 }
 
@@ -339,7 +340,7 @@
 	min-height: 55px;
 	background-color: transparent;
 	margin-left: 220px;
-	margin-top: 13px;
+	margin-top: 14px;
 	position: relative;
 }
 
@@ -353,7 +354,7 @@
 	background-color: transparent;
 	line-height: 17px;
 	margin-left: 220px;
-	margin-top: 26px;
+	margin-top: 25px;
 	position: relative;
 }
 
@@ -484,7 +485,7 @@
 	background-color: transparent;
 	line-height: 17px;
 	margin-left: 220px;
-	margin-top: 24px;
+	margin-top: 25px;
 	position: relative;
 }
 
@@ -495,7 +496,7 @@
 	min-height: 25px;
 	background-color: transparent;
 	margin-left: 220px;
-	margin-top: 26px;
+	margin-top: 25px;
 	position: relative;
 }
 
@@ -518,7 +519,7 @@
 	min-height: 34px;
 	background-color: transparent;
 	margin-left: 220px;
-	margin-top: 25px;
+	margin-top: 26px;
 	position: relative;
 }
 
@@ -526,7 +527,7 @@
 {
 	width: 0.01px;
 	margin-left: 242px;
-	margin-top: 26px;
+	margin-top: 25px;
 }
 
 #u620
@@ -707,7 +708,7 @@
 	min-height: 59px;
 	background-color: transparent;
 	margin-left: 220px;
-	margin-top: 26px;
+	margin-top: 27px;
 	position: relative;
 }
 
@@ -719,7 +720,7 @@
 	background-color: transparent;
 	line-height: 17px;
 	margin-left: 220px;
-	margin-top: 27px;
+	margin-top: 26px;
 	position: relative;
 }
 
@@ -730,7 +731,7 @@
 	min-height: 59px;
 	background-color: transparent;
 	margin-left: 220px;
-	margin-top: 26px;
+	margin-top: 27px;
 	position: relative;
 }
 
@@ -742,7 +743,7 @@
 	background-color: transparent;
 	line-height: 17px;
 	margin-left: 220px;
-	margin-top: 27px;
+	margin-top: 26px;
 	position: relative;
 }
 

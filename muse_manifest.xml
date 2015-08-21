@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1439963006735">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1440188816416">
   <folder name="images">
     <file name="img_0648-crop-u843.jpg" crc="4160607574" ref="index"/>
     <file name="favicon.ico" crc="4041064623" ref="phone>index"/>
@@ -8,29 +8,29 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_page.css" crc="4073057265" ref="phone>memoization:phone>index:phone>projects:phone>snippets:phone>research"/>
-      <file name="master_main.css" crc="314445842" ref="phone>memoization:phone>index:phone>projects:phone>snippets:phone>research"/>
-      <file name="memoization.css" crc="64688224" ref="phone>memoization"/>
-      <file name="index.css" crc="347294275" ref="phone>index"/>
-      <file name="projects.css" crc="312211860" ref="phone>projects"/>
-      <file name="snippets.css" crc="360316697" ref="phone>snippets"/>
-      <file name="research.css" crc="117181384" ref="phone>research"/>
+      <file name="master_page.css" crc="3930319543" ref="phone>memoization:phone>index:phone>projects:phone>snippets:phone>research"/>
+      <file name="master_main.css" crc="253428337" ref="phone>memoization:phone>index:phone>projects:phone>snippets:phone>research"/>
+      <file name="memoization.css" crc="4035948961" ref="phone>memoization"/>
+      <file name="index.css" crc="4084685041" ref="phone>index"/>
+      <file name="projects.css" crc="3885867347" ref="phone>projects"/>
+      <file name="snippets.css" crc="495864295" ref="phone>snippets"/>
+      <file name="research.css" crc="4255466954" ref="phone>research"/>
     </folder>
-    <file name="index.html" crc="3783076393" seo="true" mt="1439962733426" redirect="true"/>
-    <file name="memoization.html" crc="506188737" seo="true" mt="1439962733426" redirect="true"/>
-    <file name="research.html" crc="3898784946" seo="true" mt="1439962733426" redirect="true"/>
-    <file name="projects.html" crc="494787279" seo="true" mt="1439962733426" redirect="true"/>
-    <file name="snippets.html" crc="4052595840" seo="true" mt="1439962733426" redirect="true"/>
+    <file name="index.html" crc="401735276" seo="true" mt="1440188578894" redirect="true"/>
+    <file name="memoization.html" crc="70807945" seo="true" mt="1440188622242" redirect="true"/>
+    <file name="research.html" crc="218003410" seo="true" mt="1440188592855" redirect="true"/>
+    <file name="projects.html" crc="491015705" seo="true" mt="1440188490998" redirect="true"/>
+    <file name="snippets.html" crc="3760246666" seo="true" mt="1440188609260" redirect="true"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="445134775"/>
-    <file name="master_page.css" crc="3830206251" ref="index:memoization:research:projects:snippets"/>
-    <file name="master_main.css" crc="4014597013" ref="index:memoization:research:projects:snippets"/>
-    <file name="index.css" crc="3875030763" ref="index"/>
-    <file name="memoization.css" crc="4117178444" ref="memoization"/>
+    <file name="site_global.css" crc="3939176088"/>
+    <file name="master_page.css" crc="229118699" ref="index:memoization:research:projects:snippets"/>
+    <file name="master_main.css" crc="3939731015" ref="index:memoization:research:projects:snippets"/>
+    <file name="index.css" crc="469977990" ref="index"/>
+    <file name="memoization.css" crc="201777572" ref="memoization"/>
     <file name="research.css" crc="4229253185" ref="research"/>
-    <file name="projects.css" crc="4022168942" ref="projects"/>
-    <file name="snippets.css" crc="3858063263" ref="snippets"/>
+    <file name="projects.css" crc="245022054" ref="projects"/>
+    <file name="snippets.css" crc="468442293" ref="snippets"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets"/>
@@ -41,9 +41,9 @@
     <file name="pie.js" crc="3827607177" ref="memoization:phone>memoization"/>
     <file name="museredirect.js" crc="3899419633" ref="index:memoization:research:projects:snippets"/>
   </folder>
-  <file name="index.html" crc="517244003" seo="true" mt="1439961722269" redirect="true"/>
-  <file name="memoization.html" crc="358151059" seo="true" mt="1439961722502" redirect="true"/>
-  <file name="research.html" crc="3799812188" seo="true" mt="1439961722335" redirect="true"/>
-  <file name="projects.html" crc="132092721" seo="true" mt="1439961722387" redirect="true"/>
-  <file name="snippets.html" crc="8019913" seo="true" mt="1439961722439" redirect="true"/>
+  <file name="index.html" crc="3859618171" seo="true" mt="1440188538719" redirect="true"/>
+  <file name="memoization.html" crc="344646458" seo="true" mt="1440188558988" redirect="true"/>
+  <file name="research.html" crc="418884690" seo="true" mt="1440187575473" redirect="true"/>
+  <file name="projects.html" crc="4159292874" seo="true" mt="1440188518321" redirect="true"/>
+  <file name="snippets.html" crc="4125830336" seo="true" mt="1440188548499" redirect="true"/>
 </manifest>

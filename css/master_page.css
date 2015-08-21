@@ -11,18 +11,18 @@
 #u171-4
 {
 	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 42px;
 	line-height: 50px;
+	font-size: 42px;
+	color: #FFFFFF;
 	position: relative;
 }
 
 #u555-4,#u560-4
 {
 	background-color: transparent;
-	color: #C0C0C0;
-	font-size: 42px;
 	line-height: 50px;
+	font-size: 42px;
+	color: #C0C0C0;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -47,10 +47,10 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 29px;
 	color: #FFFFFF;
 	font-size: 24px;
 	text-align: center;
-	line-height: 29px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -78,10 +78,10 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 29px;
 	color: #FFFFFF;
 	font-size: 24px;
 	text-align: center;
-	line-height: 29px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -109,10 +109,10 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 29px;
 	color: #FFFFFF;
 	font-size: 24px;
 	text-align: center;
-	line-height: 29px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -140,10 +140,10 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 29px;
 	color: #FFFFFF;
 	font-size: 24px;
 	text-align: center;
-	line-height: 29px;
 	font-family: open-sans-condensed, sans-serif;
 	font-weight: 700;
 	position: relative;

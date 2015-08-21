@@ -11,26 +11,26 @@
 #u1172-4
 {
 	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 42px;
 	line-height: 50px;
+	font-size: 42px;
+	color: #FFFFFF;
 	position: relative;
 }
 
 #u1173-4,#u1174-4
 {
 	background-color: transparent;
-	color: #C0C0C0;
-	font-size: 42px;
 	line-height: 50px;
+	font-size: 42px;
+	color: #C0C0C0;
 	position: relative;
 }
 
 #u1171-4
 {
 	background-color: transparent;
-	color: #C0C0C0;
 	text-align: center;
+	color: #C0C0C0;
 	position: relative;
 }
 
