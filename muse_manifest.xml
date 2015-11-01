@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1446347910608">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1446356045790">
   <folder name="images">
     <file name="img_0648-crop-u843.jpg" crc="4160607574" ref="index"/>
-    <file name="favicon.ico" crc="4041064623" ref="phone>index:index"/>
+    <file name="favicon.ico" crc="4041064623" ref="phone>index:index:projects"/>
     <file name="img_0648-crop-u1222.jpg" crc="4160607574" ref="phone>index"/>
     <file name="bitbucket_white.png" crc="3880044052" seo="true" ref="phone>index:phone>research:phone>projects:phone>snippets:phone>memoization:index:memoization:research:projects:snippets:python-compiler"/>
     <file name="github_white-01.png" crc="4084618402" seo="true" ref="phone>index:phone>research:phone>projects:phone>snippets:phone>memoization:index:memoization:research:projects:snippets:python-compiler"/>
@@ -30,7 +30,7 @@
     <file name="index.css" crc="4239901900" ref="index"/>
     <file name="memoization.css" crc="470569341" ref="memoization"/>
     <file name="research.css" crc="4282885644" ref="research"/>
-    <file name="projects.css" crc="3995064037" ref="projects"/>
+    <file name="projects.css" crc="67991427" ref="projects"/>
     <file name="snippets.css" crc="26856940" ref="snippets"/>
     <file name="python-compiler.css" crc="3886481741" ref="python-compiler"/>
   </folder>
@@ -46,7 +46,7 @@
   <file name="index.html" crc="68984931" seo="true" mt="1446347894621" redirect="true"/>
   <file name="memoization.html" crc="4061683989" seo="true" mt="1446347894621" redirect="true"/>
   <file name="research.html" crc="4269965783" seo="true" mt="1446347894621" redirect="true"/>
-  <file name="projects.html" crc="260672766" seo="true" mt="1446347894621" redirect="true"/>
+  <file name="projects.html" crc="3914537927" seo="true" mt="1446355839652" redirect="true"/>
   <file name="snippets.html" crc="222274764" seo="true" mt="1446347894621" redirect="true"/>
   <file name="python-compiler.html" crc="189672017" seo="true" mt="1446347894621" redirect="true"/>
 </manifest>
