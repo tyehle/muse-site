@@ -1,10 +1,11 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1440383545290">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1446347643111">
   <folder name="images">
     <file name="img_0648-crop-u843.jpg" crc="4160607574" ref="index"/>
-    <file name="favicon.ico" crc="4041064623" ref="phone>index:index"/>
+    <file name="favicon.ico" crc="4041064623" ref="phone>index:index:python-compiler"/>
     <file name="img_0648-crop-u1222.jpg" crc="4160607574" ref="phone>index"/>
-    <file name="bitbucket_white.png" crc="3880044052" seo="true" ref="phone>index:phone>research:phone>projects:phone>snippets:phone>memoization:index:memoization:research:projects:snippets"/>
-    <file name="github_white-01.png" crc="4084618402" seo="true" ref="phone>index:phone>research:phone>projects:phone>snippets:phone>memoization:index:memoization:research:projects:snippets"/>
+    <file name="bitbucket_white.png" crc="3880044052" seo="true" ref="phone>index:phone>research:phone>projects:phone>snippets:phone>memoization:index:memoization:research:projects:snippets:python-compiler"/>
+    <file name="github_white-01.png" crc="4084618402" seo="true" ref="phone>index:phone>research:phone>projects:phone>snippets:phone>memoization:index:memoization:research:projects:snippets:python-compiler"/>
+    <file name="hypno_python.png" crc="331067226" seo="true" ref="python-compiler"/>
   </folder>
   <folder name="phone">
     <folder name="css">
@@ -24,26 +25,28 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3939176088"/>
-    <file name="master_page.css" crc="3830206251" ref="index:memoization:research:projects:snippets"/>
-    <file name="master_main.css" crc="4014597013" ref="index:memoization:research:projects:snippets"/>
-    <file name="index.css" crc="286332542" ref="index"/>
-    <file name="memoization.css" crc="18136156" ref="memoization"/>
-    <file name="research.css" crc="4043773369" ref="research"/>
-    <file name="projects.css" crc="59302046" ref="projects"/>
-    <file name="snippets.css" crc="385450317" ref="snippets"/>
+    <file name="master_page.css" crc="4209419464" ref="index:memoization:research:projects:snippets:python-compiler"/>
+    <file name="master_main.css" crc="3938183495" ref="index:memoization:research:projects:snippets:python-compiler"/>
+    <file name="index.css" crc="58525251" ref="index"/>
+    <file name="memoization.css" crc="3761097556" ref="memoization"/>
+    <file name="research.css" crc="4220421820" ref="research"/>
+    <file name="projects.css" crc="378004468" ref="projects"/>
+    <file name="snippets.css" crc="3916890454" ref="snippets"/>
+    <file name="python-compiler.css" crc="410639881" ref="python-compiler"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets"/>
-    <file name="museutils.js" crc="275725342" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets"/>
-    <file name="jquery.musemenu.js" crc="4042164668" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets"/>
-    <file name="jquery.watch.js" crc="3999102769" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets"/>
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets:python-compiler"/>
+    <file name="museutils.js" crc="275725342" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets:python-compiler"/>
+    <file name="jquery.musemenu.js" crc="4042164668" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets:python-compiler"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets:python-compiler"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets:python-compiler"/>
     <file name="pie.js" crc="3827607177" ref="memoization:phone>memoization"/>
     <file name="museredirect.js" crc="3899419633" ref="index:memoization:research:projects:snippets"/>
   </folder>
-  <file name="index.html" crc="3822117814" seo="true" mt="1440367997541" redirect="true"/>
-  <file name="memoization.html" crc="4121412781" seo="true" mt="1440367997541" redirect="true"/>
-  <file name="research.html" crc="517309008" seo="true" mt="1440367997541" redirect="true"/>
-  <file name="projects.html" crc="4106056300" seo="true" mt="1440367997541" redirect="true"/>
-  <file name="snippets.html" crc="479403137" seo="true" mt="1440367997541" redirect="true"/>
+  <file name="index.html" crc="4141596025" seo="true" mt="1445405100742" redirect="true"/>
+  <file name="memoization.html" crc="104159306" seo="true" mt="1445405100742" redirect="true"/>
+  <file name="research.html" crc="483785508" seo="true" mt="1445405100742" redirect="true"/>
+  <file name="projects.html" crc="461495442" seo="true" mt="1445405100742" redirect="true"/>
+  <file name="snippets.html" crc="313552755" seo="true" mt="1445405100742" redirect="true"/>
+  <file name="python-compiler.html" crc="3785256534" seo="true" mt="1446347621152" redirect="true"/>
 </manifest>

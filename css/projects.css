@@ -1,7 +1,7 @@
 .version.projects /* version checker */
 {
-	color: #000003;
-	background-color: #88E09E;
+	color: #000016;
+	background-color: #87E3F4;
 }
 
 .html
@@ -28,9 +28,23 @@
 	width: 0.01px;
 }
 
+#pu1344-3
+{
+	width: 0.01px;
+	margin-left: -100px;
+}
+
+#u1344-3
+{
+	z-index: 31;
+	width: 1160px;
+	min-height: 90px;
+	margin-right: -10000px;
+}
+
 #u177
 {
-	z-index: 32;
+	z-index: 34;
 	width: 265px;
 	padding-bottom: 20px;
 	margin-right: -10000px;
@@ -39,7 +53,7 @@
 
 #u555-4
 {
-	z-index: 62;
+	z-index: 64;
 	width: 28px;
 	min-height: 53px;
 	margin-right: -10000px;
@@ -49,7 +63,7 @@
 
 #u171-4
 {
-	z-index: 58;
+	z-index: 60;
 	width: 194px;
 	min-height: 46px;
 	margin-right: -10000px;
@@ -59,7 +73,7 @@
 
 #u560-4
 {
-	z-index: 66;
+	z-index: 68;
 	width: 28px;
 	min-height: 53px;
 	margin-right: -10000px;
@@ -69,7 +83,7 @@
 
 #menuu163
 {
-	z-index: 33;
+	z-index: 35;
 	width: 367px;
 	margin-right: -10000px;
 	margin-top: 24px;
@@ -188,6 +202,13 @@
 	padding-bottom: 10px;
 }
 
+#u1000:hover
+{
+	width: 91px;
+	min-height: 0px;
+	margin: 0px;
+}
+
 #u1000.MuseMenuActive
 {
 	width: 91px;
@@ -271,15 +292,9 @@
 	margin: 0px -10000px 0px 0px;
 }
 
-#u140,#u140-bw
-{
-	z-index: 31;
-	min-height: 90px;
-}
-
 #u1006-4
 {
-	z-index: 70;
+	z-index: 72;
 	width: 520px;
 	min-height: 59px;
 	background-color: transparent;
@@ -298,7 +313,7 @@
 
 #u1013
 {
-	z-index: 96;
+	z-index: 101;
 	width: 216px;
 	height: 22px;
 	border-style: solid;
@@ -312,7 +327,7 @@
 
 #u1012-4
 {
-	z-index: 92;
+	z-index: 97;
 	width: 44px;
 	min-height: 22px;
 	background-color: transparent;
@@ -331,7 +346,7 @@
 
 #u1014
 {
-	z-index: 97;
+	z-index: 102;
 	width: 216px;
 	height: 22px;
 	border-style: solid;
@@ -344,9 +359,9 @@
 	border-width: 1px 0px 0px;
 }
 
-#u1007-18
+#u1007-21
 {
-	z-index: 74;
+	z-index: 76;
 	width: 520px;
 	min-height: 59px;
 	background-color: transparent;
@@ -355,9 +370,9 @@
 	position: relative;
 }
 
-#u1016-12
+#u1016-18
 {
-	z-index: 98;
+	z-index: 103;
 	width: 520px;
 	min-height: 59px;
 	background-color: transparent;
@@ -378,7 +393,7 @@
 	padding-bottom: 28px;
 }
 
-#u140_align_to_page,#u105_align_to_page
+#u105_align_to_page
 {
 	margin-left: auto;
 	margin-right: auto;
