@@ -1,7 +1,7 @@
 .version.projects /* version checker */
 {
-	color: #000016;
-	background-color: #87E3F4;
+	color: #0000EE;
+	background-color: #1FD6E5;
 }
 
 .html
@@ -34,12 +34,10 @@
 	margin-left: -100px;
 }
 
-#u1344-3
+#u1344-3,#u1344-3-bw
 {
 	z-index: 31;
-	width: 1160px;
 	min-height: 90px;
-	margin-right: -10000px;
 }
 
 #u177

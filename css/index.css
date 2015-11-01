@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000003;
-	background-color: #7D0643;
+	color: #0000FC;
+	background-color: #B7C4CC;
 }
 
 .html
@@ -34,12 +34,10 @@
 	margin-left: -100px;
 }
 
-#u1344-3
+#u1344-3,#u1344-3-bw
 {
 	z-index: 31;
-	width: 1160px;
 	min-height: 90px;
-	margin-right: -10000px;
 }
 
 #u177
