@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1451570981776">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1451571133750">
   <folder name="images">
     <file name="favicon.ico" crc="4041064623" ref="phone>index:index"/>
     <file name="img_0648-crop-u1222.jpg" crc="4160607574" ref="phone>index"/>
@@ -24,7 +24,7 @@
     <file name="snippets.html" crc="3760246666" seo="true" mt="1440188609260" redirect="true"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3939176088"/>
+    <file name="site_global.css" crc="445134775"/>
     <file name="master_page.css" crc="4088037030" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock"/>
     <file name="master_main.css" crc="3970403753" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock"/>
     <file name="index.css" crc="256377709" ref="index"/>
