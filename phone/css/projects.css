@@ -1,7 +1,7 @@
 .version.projects /* version checker */
 {
-	color: #0000E7;
-	background-color: #9DA153;
+	color: #00001D;
+	background-color: #09E2D4;
 }
 
 @-ms-viewport
@@ -307,7 +307,7 @@
 	margin-top: 71px;
 }
 
-#u1290-4
+#u1531-4
 {
 	z-index: 69;
 	width: 520px;
@@ -319,16 +319,16 @@
 	position: relative;
 }
 
-#pu1293
+#pu1534
 {
 	width: 0.01px;
 	margin-left: 62px;
 	margin-top: 26px;
 }
 
-#u1293
+#u1534
 {
-	z-index: 95;
+	z-index: 98;
 	width: 216px;
 	height: 22px;
 	border-style: solid;
@@ -340,9 +340,9 @@
 	border-width: 1px 0px 0px;
 }
 
-#u1292-4
+#u1533-4
 {
-	z-index: 91;
+	z-index: 94;
 	width: 44px;
 	min-height: 22px;
 	background-color: transparent;
@@ -353,15 +353,15 @@
 	left: 216px;
 }
 
-#u1292-2
+#u1533-2
 {
 	text-align: center;
 	font-family: source-code-pro, sans-serif;
 }
 
-#u1294
+#u1535
 {
-	z-index: 96;
+	z-index: 99;
 	width: 216px;
 	height: 22px;
 	border-style: solid;
@@ -374,7 +374,7 @@
 	border-width: 1px 0px 0px;
 }
 
-#u1291-18
+#u1532-21
 {
 	z-index: 73;
 	width: 520px;
@@ -385,9 +385,9 @@
 	position: relative;
 }
 
-#u1295-12
+#u1536-34
 {
-	z-index: 97;
+	z-index: 100;
 	width: 520px;
 	min-height: 59px;
 	background-color: transparent;
@@ -396,7 +396,7 @@
 	position: relative;
 }
 
-#u1291-2,#u1295-2
+#u1532-2,#u1536-2
 {
 	line-height: 29px;
 }
@@ -499,7 +499,7 @@
 {
 	z-index: 2;
 	min-height: 102px;
-	margin-top: 82px;
+	margin-top: 58px;
 }
 
 body
