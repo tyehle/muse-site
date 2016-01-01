@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html class="html" lang="en-US">
+ <head>
+
+  <script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "jquery.musemenu.js", "python-compiler.css"], "outOfDate":[]};
+</script>
+  
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2015.0.2.310"/>
+  <link rel="shortcut icon" href="../images/favicon.ico?4041064623"/>
+  <title>Python Compiler</title>
+  <meta name="viewport" content="width=600"/>
+  <link rel="canonical" href="http://tobin.yehle.io/python-compiler.html"/>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="../css/site_global.css?445134775"/>
+  <link rel="stylesheet" type="text/css" href="css/master_main.css?158396892"/>
+  <link rel="stylesheet" type="text/css" href="css/master_page.css?4072763860"/>
+  <link rel="stylesheet" type="text/css" href="css/python-compiler.css?4127880110" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <!--[if lt IE 9]>
+  <script src="../scripts/html5shiv.js?4241844378" type="text/javascript"></script>
+  <![endif]-->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans-condensed:n7:default.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//use.typekit.net/ik/oqD5UCajm9C_CQO-aFCpiY_uxKqJCRWiDPStBeY3rJjfenMgfFcft6IPH2waw2wUwR8L5AmyFesKwAwkjQ9owR8KF2Zy5QMDFRJtZRqDFe9U5AJ-Yaszjc80O188-eU8Oc8zOfG0ieNK-At0pAmGde90-AvKIYFziW4RZPuDZW4TZKu3ScvK2aFziW4RZPuRdhs8OWgkdkGHfJKkMsMMeMb6MKGHfH0JMsMgeMS6MKGHfHPbMsMgeM96MKGHfOV4MsMgeMv6MqGIQWmDZZMg3V7-lM9.js" type="text/javascript">\x3C/script>');
+</script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   try {Typekit.load();} catch(e) {}
+</script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="pu1183"><!-- group -->
+     <div class="browser_width grpelem" id="u1183-bw">
+      <div class="clearfix" id="u1183"><!-- group -->
+       <div class="Headline-Style clearfix grpelem" id="u1215-4"><!-- content -->
+        <h1>{</h1>
+       </div>
+       <div class="Headline-Style clearfix grpelem" id="u1214-4"><!-- content -->
+        <h1>Tobin Yehle</h1>
+       </div>
+       <div class="Headline-Style clearfix grpelem" id="u1216-4"><!-- content -->
+        <h1>}</h1>
+       </div>
+      </div>
+     </div>
+     <div class="browser_width grpelem" id="menuu1185-bw">
+      <nav class="MenuBar clearfix" id="menuu1185"><!-- horizontal box -->
+       <div class="MenuItemContainer clearfix grpelem" id="u1186"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1187" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1188-4"><!-- content --><p>About</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u1207"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1208" href="research.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1210-4"><!-- content --><p>Research</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u1200"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1203" href="projects.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1206-4"><!-- content --><p>Projects</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u1193"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1194" href="snippets.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1196-4"><!-- content --><p>Snippets</p></div></a>
+       </div>
+      </nav>
+     </div>
+    </div>
+    <div class="Headline-Style clearfix colelem" id="u1503-4"><!-- content -->
+     <h1>Python Compiler</h1>
+    </div>
+    <div class="clip_frame colelem" id="u1518"><!-- image -->
+     <img class="block" id="u1518_img" src="../images/hypno_python.png" alt="" width="319" height="319"/>
+    </div>
+    <div class="Paragraph clearfix colelem" id="u1504-12"><!-- content -->
+     <p>Every assignment in <span><a class="nonblock" href="http://matt.might.net/teaching/compilers/spring-2015/">Matt Might's compilers class</a></span> at the University of Utah is a piece of a compiler for Python. In an ideal world at the end of the semester all of the students would have made an end to end system that can fully compile Python into a low level language such as Java bytecode or x86. During the semester Matt Might was called to Washington to help set up the <span><a class="nonblock" href="http://www.nih.gov/precisionmedicine/">Precision Medicine Initiative</a></span> which caused the class schedule to lag. There were only four projects in the end, and the output of the system was a normalized subset of Python ready for a CPS transform.</p>
+    </div>
+    <div class="clearfix colelem" id="pu1506"><!-- group -->
+     <div class="grpelem" id="u1506"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u1505-4"><!-- content -->
+      <p class="Code-Style" id="u1505-2">//</p>
+     </div>
+     <div class="grpelem" id="u1507"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="u1508-6"><!-- content -->
+     <h2 class="Subhead-Style" id="u1508-2">Lexing</h2>
+     <p class="Paragraph">This project took an file of valid Python code and produced a sequence of tokens. The tokens were one of eight s-expressions:</p>
+    </div>
+    <div class="clearfix colelem" id="u1517-33"><!-- content -->
+     <p class="Code-Style">(NEWLINE)</p>
+     <p class="Code-Style">&nbsp;</p>
+     <p class="Code-Style">(INDENT)</p>
+     <p class="Code-Style">&nbsp;</p>
+     <p class="Code-Style">(DEDENT)</p>
+     <p class="Code-Style">&nbsp;</p>
+     <p class="Code-Style">(ID <span id="u1517-11">name</span>)</p>
+     <p class="Code-Style">&nbsp;</p>
+     <p class="Code-Style">(LIT <span id="u1517-16">value</span>)</p>
+     <p class="Code-Style">&nbsp;</p>
+     <p class="Code-Style">(KEYWORD <span id="u1517-21">symbol</span>)</p>
+     <p class="Code-Style">&nbsp;</p>
+     <p class="Code-Style">(PUNCT <span id="u1517-26">text</span>)</p>
+     <p class="Code-Style">&nbsp;</p>
+     <p class="Code-Style">(ENDMARKER)</p>
+    </div>
+    <div class="Paragraph clearfix colelem" id="u1521-43"><!-- content -->
+     <p>For example if the lexer got the input</p>
+     <p>&nbsp;</p>
+     <p id="u1521-5"><span class="code-inline">def f(x):</span></p>
+     <p id="u1521-7"><span class="code-inline">&nbsp;&nbsp;&nbsp; return 7*x</span></p>
+     <p id="u1521-8">&nbsp;</p>
+     <p>It would generate</p>
+     <p>&nbsp;</p>
+     <p id="u1521-13"><span class="code-inline">(KEYWORD def)</span></p>
+     <p id="u1521-15"><span class="code-inline">(ID &quot;f&quot;)</span></p>
+     <p id="u1521-17"><span class="code-inline">(PUNCT &quot;(&quot;)</span></p>
+     <p id="u1521-19"><span class="code-inline">(ID &quot;x&quot;)</span></p>
+     <p id="u1521-21"><span class="code-inline">(PUNCT &quot;)&quot;)</span></p>
+     <p id="u1521-23"><span class="code-inline">(PUNCT &quot;:&quot;)</span></p>
+     <p id="u1521-25"><span class="code-inline">(NEWLINE)</span></p>
+     <p id="u1521-27"><span class="code-inline">(INDENT)</span></p>
+     <p id="u1521-29"><span class="code-inline">(KEYWORD return)</span></p>
+     <p id="u1521-31"><span class="code-inline">(LIT 7)</span></p>
+     <p id="u1521-33"><span class="code-inline">(PUNCT &quot;*&quot;)</span></p>
+     <p id="u1521-35"><span class="code-inline">(ID &quot;x&quot;)</span></p>
+     <p id="u1521-37"><span class="code-inline">(NEWLINE)</span></p>
+     <p id="u1521-39"><span class="code-inline">(DEDENT)</span></p>
+     <p id="u1521-41"><span class="code-inline">(ENDMARKER)</span></p>
+    </div>
+    <div class="Paragraph clearfix colelem" id="u1520-4"><!-- content -->
+     <p>The hardest part of the stage was dealing with unicode in variable names, and strings. Variables were required to be NFKC normalized, and string literals had to be properly represented in Racket. The lexer requires some state to deal with the whitespace correctly, and there are some interesting corner cases with the ellipsis literal and a regular period.</p>
+    </div>
+    <div class="clearfix colelem" id="pu1510"><!-- group -->
+     <div class="grpelem" id="u1510"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u1509-4"><!-- content -->
+      <p class="Code-Style" id="u1509-2">//</p>
+     </div>
+     <div class="grpelem" id="u1511"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="u1512-151"><!-- content -->
+     <h2 class="Subhead-Style" id="u1512-2">Parsing</h2>
+     <p class="Paragraph">The parser we built was really just a bunch of reduction rules on top of the racket parsing library and DERP2 built by Matt Might (if you want to know more about how this works, the <span><a class="nonblock" href="https://github.com/mattmight/project-python-parser/blob/master/sxgram2yaccgram.rkt">code is available</a></span>, and there is also <span><a class="nonblock" href="http://theorangeduck.com/page/you-could-have-invented-parser-combinators">this fantastic post</a></span> about how parser combinators work). We started with the <span><a class="nonblock" href="https://docs.python.org/3/reference/grammar.html">Python grammar specification</a></span>, and inserted reductions to give us the parse tree matching <span><a class="nonblock" href="https://docs.python.org/3/library/ast.html#abstract-grammar">Python's built in AST module</a></span>.&nbsp; As an example of what this entails I will walk through the process for dealing with an if statement.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">From the Python grammar, an if statement looks like this (shown here in lisp-like syntax):</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1512-26">(if_stmt (seq &quot;if&quot;</p>
+     <p class="Code-Style" id="u1512-28">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test</p>
+     <p class="Code-Style" id="u1512-30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;:&quot;</p>
+     <p class="Code-Style" id="u1512-32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; suite</p>
+     <p class="Code-Style" id="u1512-34">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (rep (seq &quot;elif&quot; test &quot;:&quot; suite))</p>
+     <p class="Code-Style" id="u1512-36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (opt (seq &quot;else&quot; &quot;:&quot; suite))))</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">So an if statement must have a test expression and a body, and then any number of else if clauses, followed by an optional else clause.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">In my code I use the function <span class="code-inline">($--&gt; input output)</span>, which generates a reduction rule that matches the first argument and results in the second argument. Inside the reduction, parts of the input can be extracted with the <span class="code-inline">($ n)</span> function, and the symbol <span class="code-inline">$$</span> gets expanded to the entire input.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">An example of a simple reduction is the following application.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1512-54">($--&gt; (seq &quot;if&quot; test &quot;:&quot; suite)</p>
+     <p class="Code-Style" id="u1512-56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (list ($ 2) ($ 4)))</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">This will match the literal <span class="code-inline">&quot;if&quot;</span>, any expansion of the non-terminal <span class="code-inline">test</span>, the literal <span class="code-inline">&quot;:&quot;</span>, and finally any expansion of the non-terminal <span class="code-inline">suite</span>. It will return a list of just the second and fourth things it matched, in this case the expansion of <span class="code-inline">test</span> and <span class="code-inline">suite</span>.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">The following is the full set of reductions for an if statement.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1512-77">(if_stmt ($--&gt; (seq ($--&gt; (seq &quot;if&quot; test &quot;:&quot; suite)</p>
+     <p class="Code-Style" id="u1512-79">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (list ($ 2) ($ 4)))</p>
+     <p class="Code-Style" id="u1512-81">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (rep ($--&gt; (seq &quot;elif&quot; test &quot;:&quot; suite)</p>
+     <p class="Code-Style" id="u1512-83">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (list ($ 2) ($ 4))))</p>
+     <p class="Code-Style" id="u1512-85">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ($--&gt; (opt (seq &quot;else&quot; &quot;:&quot; suite))</p>
+     <p class="Code-Style" id="u1512-87">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (match $$</p>
+     <p class="Code-Style" id="u1512-89">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [#f '()]</p>
+     <p class="Code-Style" id="u1512-91">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`(&quot;else&quot; &quot;:&quot; ,block) block])))</p>
+     <p class="Code-Style" id="u1512-93">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (process-ifs (cons ($ 1) ($ 2)) ($ 3))))</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">The inner reductions filter out the unneeded keywords, and the outer reduction is a simple call to a helper function that builds the correct output syntax. The helper function takes a list of if/elif statements, and a possibly empty else statement. It recursively packages them up into the correct if-else syntax.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1512-99">(define (process-ifs ifs tail)</p>
+     <p class="Code-Style" id="u1512-101">&nbsp; (match ifs</p>
+     <p class="Code-Style" id="u1512-103">&nbsp;&nbsp;&nbsp; [`((,test ,body))</p>
+     <p class="Code-Style" id="u1512-105">&nbsp;&nbsp;&nbsp;&nbsp; `(If (test ,test)</p>
+     <p class="Code-Style" id="u1512-107">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (body ,@body)</p>
+     <p class="Code-Style" id="u1512-109">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (orelse ,@tail))]</p>
+     <p class="Code-Style" id="u1512-111">&nbsp;&nbsp;&nbsp; [(cons `(,test ,body) others)</p>
+     <p class="Code-Style" id="u1512-113">&nbsp;&nbsp;&nbsp;&nbsp; `(If (test ,test)</p>
+     <p class="Code-Style" id="u1512-115">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (body ,@body)</p>
+     <p class="Code-Style" id="u1512-117">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (orelse ,(process-ifs others tail)))]))</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">The final system would take the following if statement</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1512-123">if t1:</p>
+     <p class="Code-Style" id="u1512-125">&nbsp; r1</p>
+     <p class="Code-Style" id="u1512-127">elif t2:</p>
+     <p class="Code-Style" id="u1512-129">&nbsp; r2</p>
+     <p class="Code-Style" id="u1512-131">else:</p>
+     <p class="Code-Style" id="u1512-133">&nbsp; r3</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">and produce this syntax tree</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1512-139">(If</p>
+     <p class="Code-Style" id="u1512-141">&nbsp;(test (Name t1))</p>
+     <p class="Code-Style" id="u1512-143">&nbsp;(body (Expr (Name r1)))</p>
+     <p class="Code-Style" id="u1512-145">&nbsp;(orelse (If (test (Name t2))</p>
+     <p class="Code-Style" id="u1512-147">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (body (Expr (Name r2)))</p>
+     <p class="Code-Style" id="u1512-149">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (orelse (Expr (Name r3)))))))</p>
+    </div>
+    <div class="clearfix colelem" id="pu1514"><!-- group -->
+     <div class="grpelem" id="u1514"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u1513-4"><!-- content -->
+      <p class="Code-Style" id="u1513-2">//</p>
+     </div>
+     <div class="grpelem" id="u1515"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="u1516-49"><!-- content -->
+     <h2 class="Subhead-Style" id="u1516-2">Desugaring</h2>
+     <p class="Paragraph">The next two projects were desugaring and normalization steps. They both used a <span><a class="nonblock" href="https://github.com/mattmight/pywalk">tree walker</a></span> built for the output of the parser. The implementation of the tree walker simply does a match on a structure in the parse tree, and recursively descends until it hits a leaf, performing a transformation along the way. The interface provided by the tree walker is the ability to walk the tree performing some transformation on every subtree. It also provided the functions to perform a transformation until a fixed point was hit, and the option to transform top down or bottom up.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">Basically all of the code that I wrote for this part was transformation functions that take a statement, and return a list of possible replacement statements. The most basic transform is fixing return statements so that a lone <span class="code-inline">return</span> call becomes <span class="code-inline">return None</span>.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1516-18">(define (canonicalize-return stmt)</p>
+     <p class="Code-Style" id="u1516-20">&nbsp; (match stmt</p>
+     <p class="Code-Style" id="u1516-22">&nbsp;&nbsp;&nbsp; [`(Return)&nbsp; (list '(Return (NameConstant None)))]</p>
+     <p class="Code-Style" id="u1516-24">&nbsp;&nbsp;&nbsp; [else&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (list stmt)]))</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">Some of the other interesting transforms we did in the phase are lifting decorators, and removing classes. Removing decorators from functions is a straightforward operation. Generally code of the form</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1516-30">@&lt;decorator&gt;</p>
+     <p class="Code-Style" id="u1516-32">def &lt;name&gt;(&lt;parameters&gt;):</p>
+     <p class="Code-Style" id="u1516-34">&nbsp; &lt;body&gt;</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">should be turned into code of the form</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1516-40">def &lt;name&gt;(&lt;parameters&gt;):</p>
+     <p class="Code-Style" id="u1516-42">&nbsp; &lt;body&gt;</p>
+     <p class="Code-Style" id="u1516-44">&lt;name&gt; = &lt;decorator&gt;(&lt;name&gt;)</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">After the end of this phase of the compiler we needed to normalize before applying any more desugarings.</p>
+    </div>
+    <div class="clearfix colelem" id="pu1523"><!-- group -->
+     <div class="grpelem" id="u1523"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u1522-4"><!-- content -->
+      <p class="Code-Style" id="u1522-2">//</p>
+     </div>
+     <div class="grpelem" id="u1524"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="u1525-67"><!-- content -->
+     <h2 class="Subhead-Style" id="u1525-2">Normalizing</h2>
+     <p class="Paragraph">The main goal of normalization is breaking arbitrarily complex statements into bits that can be easily translated to machine code. This step is also where the order of evaluation is fixed. For example after this phase the statement <span class="code-inline">f(print(1), print(2))</span> could not possibly do anything other than print <span class="code-inline">1</span> then print <span class="code-inline">2</span>. In order to ensure the entire program was normalized we ran a normalizing tree transform until nothing happened. The normalizing transform matched every complex statement in the grammar and checked if all its sub-expressions were atomic. If they were not it bound them to a variable and then made the complex call with the variable instead.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">For example the statement</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1525-17">result = 3*x + 4*y</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">would be interally represented as</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1525-23">'(Assign (targets (Name result))</p>
+     <p class="Code-Style" id="u1525-25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (BinOp (BinOp (Num 3) Mult (Name x))</p>
+     <p class="Code-Style" id="u1525-27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add</p>
+     <p class="Code-Style" id="u1525-29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (BinOp (Num 4) Mult (Name y))))</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">This internal representation would trigger the following match clause in the body of <span class="code-inline">normalize/stmt</span>.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1525-37">[`(Assign (targets ,target) (value ,rhs))</p>
+     <p class="Code-Style" id="u1525-39">&nbsp;#:when (not (normalized? rhs))</p>
+     <p class="Code-Style" id="u1525-41">&nbsp;`((Assign (targets ,target)</p>
+     <p class="Code-Style" id="u1525-43">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (value ,(normalize-expr! rhs))))]</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">Then the following match clause would do the real work in the body of <span class="code-inline">normalize-expr!</span>.</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1525-51">[`(BinOp ,lhs ,op ,rhs)</p>
+     <p class="Code-Style" id="u1525-53">&nbsp;`(BinOp ,(atomize! lhs) ,op ,(atomize! rhs))]</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Paragraph">The <span class="code-inline">atomize!</span> function would just push the complex statements into their own assign statements and return the name of the new variable they were assigned to. The original statement would then look like this</p>
+     <p class="Paragraph">&nbsp;</p>
+     <p class="Code-Style" id="u1525-61">_tmp_1 = 3*x</p>
+     <p class="Code-Style" id="u1525-63">_tmp_2 = 4*y</p>
+     <p class="Code-Style" id="u1525-65">result = _tmp_1 + _tmp_2</p>
+    </div>
+    <div class="clearfix colelem" id="pu1527"><!-- group -->
+     <div class="grpelem" id="u1527"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u1526-4"><!-- content -->
+      <p class="Code-Style" id="u1526-2">//</p>
+     </div>
+     <div class="grpelem" id="u1528"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="u1529-10"><!-- content -->
+     <h2 class="Subhead-Style" id="u1529-2">Finishing</h2>
+     <p class="Paragraph">There were still a couple of nasty things to take care of before the Python structures we had at this point could be translated into machine code. In order to deal with the yield construct we were going to do a double <span><a class="nonblock" href="http://matt.might.net/articles/cps-conversion/">CPS transform</a></span>. There was also a fair amount of other steps to take before we arrived at a true low level language.</p>
+    </div>
+    <div class="verticalspacer"></div>
+    <div class="browser_width colelem" id="u1170-bw">
+     <div class="clearfix" id="u1170"><!-- group -->
+      <a class="nonblock nontext clip_frame grpelem" id="u1176" href="https://bitbucket.org/tobinyehle/"><!-- image --><img class="block" id="u1176_img" src="../images/bitbucket_white.png" alt="" width="32" height="32"/></a>
+      <a class="nonblock nontext clearfix grpelem" id="u1175-4" href="https://bitbucket.org/tobinyehle/"><!-- content --><p class="Paragraph" id="u1175-2">tobinyehle</p></a>
+      <div class="clearfix grpelem" id="ppu1173-4"><!-- column -->
+       <div class="clearfix colelem" id="pu1173-4"><!-- group -->
+        <div class="Headline-Style clearfix grpelem" id="u1173-4"><!-- content -->
+         <h1>{</h1>
+        </div>
+        <div class="Headline-Style clearfix grpelem" id="u1172-4"><!-- content -->
+         <h1>Tobin Yehle</h1>
+        </div>
+        <div class="Headline-Style clearfix grpelem" id="u1174-4"><!-- content -->
+         <h1>}</h1>
+        </div>
+       </div>
+       <div class="Paragraph clearfix colelem" id="u1171-4"><!-- content -->
+        <p>tobin {dot} yehle {at} gmail {dot} com</p>
+       </div>
+      </div>
+      <a class="nonblock nontext clip_frame grpelem" id="u1178" href="https://github.com/tyehle"><!-- image --><img class="block" id="u1178_img" src="../images/github_white-01.png" alt="" width="32" height="32"/></a>
+      <a class="nonblock nontext clearfix grpelem" id="u1180-4" href="https://github.com/tyehle"><!-- content --><p class="Paragraph" id="u1180-2">tyehle</p></a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="../scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="../scripts/museutils.js?275725342" type="text/javascript"></script>
+  <script src="../scripts/jquery.watch.js?3999102769" type="text/javascript"></script>
+  <script src="../scripts/jquery.musemenu.js?4042164668" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
+for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight()/* resize height */
+Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>
