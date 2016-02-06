@@ -2,63 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://tobin.yehle.io/images/bitbucket_white.png</loc>
-    <lastmod>2016-01-01</lastmod>
+    <lastmod>2016-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://tobin.yehle.io/images/github_white-01.png</loc>
-    <lastmod>2016-01-01</lastmod>
+    <lastmod>2016-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://tobin.yehle.io/images/hypno_python.png</loc>
-    <lastmod>2016-01-01</lastmod>
+    <lastmod>2016-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://tobin.yehle.io/index.html</loc>
-    <lastmod>2016-01-01</lastmod>
+    <lastmod>2016-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://tobin.yehle.io/phone/index.html"/>
   </url>
   <url>
     <loc>http://tobin.yehle.io/memoization.html</loc>
-    <lastmod>2016-01-01</lastmod>
+    <lastmod>2016-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://tobin.yehle.io/phone/memoization.html"/>
   </url>
   <url>
     <loc>http://tobin.yehle.io/research.html</loc>
-    <lastmod>2016-01-01</lastmod>
+    <lastmod>2016-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://tobin.yehle.io/phone/research.html"/>
   </url>
   <url>
     <loc>http://tobin.yehle.io/projects.html</loc>
-    <lastmod>2016-01-01</lastmod>
+    <lastmod>2016-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://tobin.yehle.io/phone/projects.html"/>
   </url>
   <url>
     <loc>http://tobin.yehle.io/snippets.html</loc>
-    <lastmod>2016-01-01</lastmod>
+    <lastmod>2016-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://tobin.yehle.io/phone/snippets.html"/>
   </url>
   <url>
     <loc>http://tobin.yehle.io/python-compiler.html</loc>
-    <lastmod>2016-01-01</lastmod>
+    <lastmod>2016-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://tobin.yehle.io/phone/python-compiler.html"/>
   </url>
   <url>
     <loc>http://tobin.yehle.io/ascii-art.html</loc>

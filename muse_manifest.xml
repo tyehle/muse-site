@@ -1,34 +1,15 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1451672577128">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="tobin.yehle.io" resolutions="1x" timestamp="1454800862109">
   <folder name="images">
-    <file name="favicon.ico" crc="4041064623" ref="phone>index"/>
-    <file name="bitbucket_white.png" crc="3880044052" seo="true" ref="phone>index:phone>research:phone>projects:phone>snippets:phone>memoization:index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:phone>python-compiler:trumpet"/>
-    <file name="github_white-01.png" crc="4084618402" seo="true" ref="phone>index:phone>research:phone>projects:phone>snippets:phone>memoization:index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:phone>python-compiler:trumpet"/>
-    <file name="hypno_python.png" crc="331067226" seo="true" ref="python-compiler:phone>python-compiler"/>
+    <file name="favicon.ico" crc="4041064623" ref="index"/>
+    <file name="bitbucket_white.png" crc="3880044052" seo="true" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:trumpet"/>
+    <file name="github_white-01.png" crc="4084618402" seo="true" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:trumpet"/>
+    <file name="hypno_python.png" crc="331067226" seo="true" ref="python-compiler"/>
     <file name="tobin_0157_20151222-crop-u1449.jpg" crc="190818759" ref="index"/>
-    <file name="tobin_0157_20151222-crop-u1564.jpg" crc="190818759" ref="phone>index"/>
-  </folder>
-  <folder name="phone">
-    <folder name="css">
-      <file name="master_page.css" crc="4072763860" ref="phone>memoization:phone>index:phone>projects:phone>snippets:phone>research:phone>python-compiler"/>
-      <file name="master_main.css" crc="158396892" ref="phone>memoization:phone>index:phone>projects:phone>snippets:phone>research:phone>python-compiler"/>
-      <file name="memoization.css" crc="4035948961" ref="phone>memoization"/>
-      <file name="index.css" crc="3793639655" ref="phone>index"/>
-      <file name="projects.css" crc="487187156" ref="phone>projects"/>
-      <file name="snippets.css" crc="495864295" ref="phone>snippets"/>
-      <file name="research.css" crc="4255466954" ref="phone>research"/>
-      <file name="python-compiler.css" crc="4127880110" ref="phone>python-compiler"/>
-    </folder>
-    <file name="index.html" crc="431923582" seo="true" mt="1451672567952" redirect="true"/>
-    <file name="memoization.html" crc="70807945" seo="true" mt="1440188622242" redirect="true"/>
-    <file name="research.html" crc="218003410" seo="true" mt="1440188592855" redirect="true"/>
-    <file name="projects.html" crc="3951234604" seo="true" mt="1451670801642" redirect="true"/>
-    <file name="snippets.html" crc="3760246666" seo="true" mt="1440188609260" redirect="true"/>
-    <file name="python-compiler.html" crc="394268154" seo="true" mt="1451670712601" redirect="true"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="445134775"/>
-    <file name="master_page.css" crc="257738882" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:trumpet"/>
-    <file name="master_main.css" crc="4239138413" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:trumpet"/>
+    <file name="site_global.css" crc="3939176088"/>
+    <file name="master_page.css" crc="3975996849" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:trumpet"/>
+    <file name="master_main.css" crc="4014597013" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:trumpet"/>
     <file name="index.css" crc="42066992" ref="index"/>
     <file name="memoization.css" crc="470569341" ref="memoization"/>
     <file name="research.css" crc="4282885644" ref="research"/>
@@ -40,20 +21,19 @@
     <file name="trumpet.css" crc="49915291" ref="trumpet"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets:python-compiler:ascii-art:sherlock:phone>python-compiler:trumpet"/>
-    <file name="museutils.js" crc="275725342" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets:python-compiler:ascii-art:sherlock:phone>python-compiler:trumpet"/>
-    <file name="jquery.musemenu.js" crc="4042164668" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets:python-compiler:ascii-art:sherlock:phone>python-compiler:trumpet"/>
-    <file name="jquery.watch.js" crc="3999102769" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets:python-compiler:ascii-art:sherlock:phone>python-compiler:trumpet"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:memoization:phone>index:phone>memoization:phone>research:phone>projects:phone>snippets:research:projects:snippets:python-compiler:ascii-art:sherlock:phone>python-compiler:trumpet"/>
-    <file name="pie.js" crc="3827607177" ref="memoization:phone>memoization"/>
-    <file name="museredirect.js" crc="3899419633" ref="index:memoization:research:projects:snippets:python-compiler"/>
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:trumpet"/>
+    <file name="museutils.js" crc="275725342" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:trumpet"/>
+    <file name="jquery.musemenu.js" crc="4042164668" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:trumpet"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:trumpet"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:memoization:research:projects:snippets:python-compiler:ascii-art:sherlock:trumpet"/>
+    <file name="pie.js" crc="3827607177" ref="memoization"/>
   </folder>
-  <file name="index.html" crc="3828499887" seo="true" mt="1451672525574" redirect="true"/>
-  <file name="memoization.html" crc="3818714577" seo="true" mt="1451670556730" redirect="true"/>
-  <file name="research.html" crc="3937437916" seo="true" mt="1451670556730" redirect="true"/>
-  <file name="projects.html" crc="3851291459" seo="true" mt="1451670556730" redirect="true"/>
-  <file name="snippets.html" crc="3830007107" seo="true" mt="1451670556730" redirect="true"/>
-  <file name="python-compiler.html" crc="45797556" seo="true" mt="1451670712599" redirect="true"/>
+  <file name="index.html" crc="4280533637" seo="true" mt="1454779839196" redirect="true"/>
+  <file name="memoization.html" crc="253083587" seo="true" mt="1454779839191" redirect="true"/>
+  <file name="research.html" crc="212200689" seo="true" mt="1454779839195" redirect="true"/>
+  <file name="projects.html" crc="465973369" seo="true" mt="1454779839194" redirect="true"/>
+  <file name="snippets.html" crc="3980947892" seo="true" mt="1454779839192" redirect="true"/>
+  <file name="python-compiler.html" crc="282021034" seo="true" mt="1454779839189" redirect="true"/>
   <file name="ascii-art.html" crc="72848987" seo="true" mt="1451670556730" redirect="true"/>
   <file name="sherlock.html" crc="4047472179" seo="true" mt="1451670556730" redirect="true"/>
   <file name="trumpet.html" crc="4075941239" seo="true" mt="1451671678130" redirect="true"/>
